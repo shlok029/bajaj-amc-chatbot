@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+lxml
+langchain
+langchain-openai
+langchain-community
+langchain-text-splitters
+openai
+faiss-cpu
+streamlit
+sentence-transformers
+python-dotenv
+langchain-google-genai
