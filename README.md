@@ -16,18 +16,18 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot specifically desi
 
 ```mermaid
 graph TD
-    A[Start App] --> B{KB Exists?}
-    B -- Yes --> C[Load FAISS Index]
-    B -- No --> D[Crawl BajajAMC.com]
-    D --> E[Process & Chunk Text]
-    E --> F[Generate Embeddings (Local CPU)]
-    F --> G[Build & Save FAISS Index]
+    A["Start App"] --> B{"KB Exists?"}
+    B -- Yes --> C["Load FAISS Index"]
+    B -- No --> D["Crawl BajajAMC.com"]
+    D --> E["Process & Chunk Text"]
+    E --> F["Generate Embeddings (Local CPU)"]
+    F --> G["Build & Save FAISS Index"]
     G --> C
-    C --> H[User Asks Question]
-    H --> I[Retrieve Relevant Context]
-    I --> J[Construct Prompt]
-    J --> K[Send to Google Gemini API]
-    K --> L[Display Answer]
+    C --> H["User Asks Question"]
+    H --> I["Retrieve Relevant Context"]
+    I --> J["Construct Prompt"]
+    J --> K["Send to Google Gemini API"]
+    K --> L["Display Answer"]
 ```
 
 ## Installation
