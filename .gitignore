@@ -3,7 +3,7 @@ __pycache__/
 *$py.class
 *.so
 .env
-kb_index/
+# kb_index/
 hf_cache/
 .vscode/
 *.log
