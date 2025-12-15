@@ -2,6 +2,11 @@
 
 This project is a Retrieval-Augmented Generation (RAG) chatbot specifically designed to assist with **Bajaj AMC** queries. It crawls the official website, processes the content into a local knowledge base, and uses **Google's Gemini 2.5 Flash** model to answer user questions.
 
+> [!IMPORTANT]
+> In the project the knowledge base is already uploaded until 25MB so that the user does not have to crawl everytime as it is time consuming.
+> Whereas, you can always crawl the bajaj amc website whenever need using the "Build KnowledgeBase" button.
+> Please make sure your input is contextual to  the website as it wont respond to anything beyond.
+
 ## Features
 
 - **Focused Crawling**: Automatically crawls `https://www.bajajamc.com` (depth: 2) to build a specialized dataset.
